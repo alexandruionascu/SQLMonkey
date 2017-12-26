@@ -1,9 +1,9 @@
 C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\obj\Debug\SQLMonkey.csprojResolveAssemblyReference.cache
 C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\obj\Debug\SQLMonkey.csproj.CoreCompileInputs.cache
-C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\bin\Debug\Database.mdf
 C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\bin\Debug\Database_log.ldf
 C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\bin\Debug\SQLMonkey.exe.config
 C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\bin\Debug\SQLMonkey.exe
 C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\bin\Debug\SQLMonkey.pdb
 C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\obj\Debug\SQLMonkey.exe
 C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\obj\Debug\SQLMonkey.pdb
+C:\Users\Faraonul\source\repos\SQLMonkey\SQLMonkey\bin\Debug\Database.mdf

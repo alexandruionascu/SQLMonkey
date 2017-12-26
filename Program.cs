@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+
 
 namespace SQLMonkey {
     class Program {
@@ -14,11 +11,16 @@ namespace SQLMonkey {
                 name = "boss"
             };
 
-
+           var path = Directory.GetParent(
+               Directory.GetParent(Directory.GetCurrentDirectory()).ToString()
+           ).ToString();
+        
            var connectionString = 
-                @"Data Source=(LocalDB)\MSSQLLocalDB;
-                AttachDbFilename=|DataDirectory|Database.mdf;
-                Integrated Security=True";
+                String.Format(@"
+                Data Source=(LocalDB)\MSSQLLocalDB;
+                AttachDbFilename={0}\Database.mdf;
+                Integrated Security=True"
+            , path);
 
             var monkey = new SQLMonkey(connectionString);
             var users = monkey.retrieve<TestUser>("users");
